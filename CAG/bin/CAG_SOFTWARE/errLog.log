@@ -1,0 +1,66 @@
+3/9/2021 1:25:21 AM
+Insufficient system storage. The server response was: rahuln@nevaehtech.com has exceeded SSP rate-limit.
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NovaNet.Utils.exLog.emailLogger.Log(Exception ex) in D:\Sandhi Software\CAG\NovaNet\Utils\emailLogger.cs:line 83
+System
+--------End--------
+3/9/2021 1:25:42 AM
+Insufficient system storage. The server response was: rahuln@nevaehtech.com has exceeded SSP rate-limit.
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NovaNet.Utils.exLog.emailLogger.Log(Exception ex) in D:\Sandhi Software\CAG\NovaNet\Utils\emailLogger.cs:line 83
+System
+--------End--------
+3/9/2021 1:35:37 AM
+Insufficient system storage. The server response was: rahuln@nevaehtech.com has exceeded SSP rate-limit.
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NovaNet.Utils.exLog.emailLogger.Log(Exception ex) in D:\Sandhi Software\CAG\NovaNet\Utils\emailLogger.cs:line 83
+System
+--------End--------
+3/9/2021 1:48:05 AM
+Insufficient system storage. The server response was: rahuln@nevaehtech.com has exceeded SSP rate-limit.
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NovaNet.Utils.exLog.emailLogger.Log(Exception ex) in D:\Sandhi Software\CAG\NovaNet\Utils\emailLogger.cs:line 83
+System
+--------End--------
+3/9/2021 1:48:21 AM
+Insufficient system storage. The server response was: rahuln@nevaehtech.com has exceeded SSP rate-limit.
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NovaNet.Utils.exLog.emailLogger.Log(Exception ex) in D:\Sandhi Software\CAG\NovaNet\Utils\emailLogger.cs:line 83
+System
+--------End--------
+3/9/2021 1:48:50 AM
+Insufficient system storage. The server response was: rahuln@nevaehtech.com has exceeded SSP rate-limit.
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NovaNet.Utils.exLog.emailLogger.Log(Exception ex) in D:\Sandhi Software\CAG\NovaNet\Utils\emailLogger.cs:line 83
+System
+--------End--------
+3/9/2021 9:07:48 AM
+Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NovaNet.Utils.exLog.emailLogger.Log(Exception ex) in D:\Sandhi Software\CAG\NovaNet\Utils\emailLogger.cs:line 83
+System
+--------End--------
+3/9/2021 9:12:11 AM
+Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NovaNet.Utils.exLog.emailLogger.Log(Exception ex) in D:\Sandhi Software\CAG\NovaNet\Utils\emailLogger.cs:line 83
+System
+--------End--------
