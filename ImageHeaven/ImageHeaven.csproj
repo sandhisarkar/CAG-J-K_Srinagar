@@ -273,6 +273,12 @@
     <Compile Include="frmPolicyLog.Designer.cs">
       <DependentUpon>frmPolicyLog.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmProduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduction.Designer.cs">
+      <DependentUpon>frmProduction.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmProductionCount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -409,6 +415,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPolicyLog.resx">
       <DependentUpon>frmPolicyLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduction.resx">
+      <DependentUpon>frmProduction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProductionCount.resx">
       <DependentUpon>frmProductionCount.cs</DependentUpon>

@@ -71,6 +71,7 @@ namespace ImageHeaven
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.productionReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.statusStrip1.SuspendLayout();
@@ -342,14 +343,14 @@ namespace ImageHeaven
             // partIToolStripMenuItem
             // 
             this.partIToolStripMenuItem.Name = "partIToolStripMenuItem";
-            this.partIToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.partIToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.partIToolStripMenuItem.Text = "Phase - I";
             this.partIToolStripMenuItem.Click += new System.EventHandler(this.partIToolStripMenuItem_Click);
             // 
             // partIIToolStripMenuItem
             // 
             this.partIIToolStripMenuItem.Name = "partIIToolStripMenuItem";
-            this.partIIToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.partIIToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.partIIToolStripMenuItem.Text = "Phase - II";
             this.partIIToolStripMenuItem.Click += new System.EventHandler(this.partIIToolStripMenuItem_Click);
             // 
@@ -357,7 +358,8 @@ namespace ImageHeaven
             // 
             this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dashboardToolStripMenuItem,
-            this.batchWiseReportToolStripMenuItem});
+            this.batchWiseReportToolStripMenuItem,
+            this.productionReportToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(59, 22);
             this.reportToolStripMenuItem.Text = "Reports";
@@ -445,6 +447,13 @@ namespace ImageHeaven
             this.logoutToolStripMenuItem.Text = "Logout";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
+            // productionReportToolStripMenuItem
+            // 
+            this.productionReportToolStripMenuItem.Name = "productionReportToolStripMenuItem";
+            this.productionReportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.productionReportToolStripMenuItem.Text = "Production Report";
+            this.productionReportToolStripMenuItem.Click += new System.EventHandler(this.productionReportToolStripMenuItem_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -518,5 +527,6 @@ namespace ImageHeaven
         private System.Windows.Forms.ToolStripMenuItem dashboardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem officeNameConfigurationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem batchWiseReportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem productionReportToolStripMenuItem;
     }
 }

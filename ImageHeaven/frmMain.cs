@@ -156,6 +156,7 @@ namespace ImageHeaven
                         reportToolStripMenuItem.Visible = true;
                         dashboardToolStripMenuItem.Visible = true;
                         batchWiseReportToolStripMenuItem.Visible = true;
+                        productionReportToolStripMenuItem.Visible = true;
                     }
                     else if(crd.role == "Scan")
                     {
@@ -217,6 +218,7 @@ namespace ImageHeaven
                         reportToolStripMenuItem.Visible = true;
                         dashboardToolStripMenuItem.Visible = true;
                         batchWiseReportToolStripMenuItem.Visible = false;
+                        productionReportToolStripMenuItem.Visible = true;
                     }
                     else if(crd.role == "QC")
                     {
@@ -277,6 +279,7 @@ namespace ImageHeaven
                         reportToolStripMenuItem.Visible = true;
                         dashboardToolStripMenuItem.Visible = true;
                         batchWiseReportToolStripMenuItem.Visible = false;
+                        productionReportToolStripMenuItem.Visible = true;
                     }
                     else if(crd.role == "Metadata Entry")
                     {
@@ -337,6 +340,7 @@ namespace ImageHeaven
                         reportToolStripMenuItem.Visible = true;
                         dashboardToolStripMenuItem.Visible = true;
                         batchWiseReportToolStripMenuItem.Visible = false;
+                        productionReportToolStripMenuItem.Visible = true;
                     }
                     else if(crd.role == "Audit 1")
                     {
@@ -397,6 +401,7 @@ namespace ImageHeaven
                         reportToolStripMenuItem.Visible = true;
                         dashboardToolStripMenuItem.Visible = true;
                         batchWiseReportToolStripMenuItem.Visible = false;
+                        productionReportToolStripMenuItem.Visible = true;
                     }
                     else if(crd.role == "Audit 2")
                     {
@@ -458,6 +463,7 @@ namespace ImageHeaven
                         reportToolStripMenuItem.Visible = true;
                         dashboardToolStripMenuItem.Visible = true;
                         batchWiseReportToolStripMenuItem.Visible = false;
+                        productionReportToolStripMenuItem.Visible = true;
                     }
                     else if(crd.role == "Fqc")
                     {
@@ -518,6 +524,7 @@ namespace ImageHeaven
                         reportToolStripMenuItem.Visible = true;
                         dashboardToolStripMenuItem.Visible = true;
                         batchWiseReportToolStripMenuItem.Visible = false;
+                        productionReportToolStripMenuItem.Visible = true;
                     }
                     //else
                     //{
@@ -949,6 +956,12 @@ namespace ImageHeaven
         private void batchWiseReportToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmBatchReport frm = new frmBatchReport(sqlCon);
+            frm.ShowDialog(this);
+        }
+
+        private void productionReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProduction frm = new frmProduction(sqlCon, crd);
             frm.ShowDialog(this);
         }
     }
